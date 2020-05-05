@@ -1,0 +1,124 @@
+body{
+	background-image:url("background.jpg");
+	background-repeat:no repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+h1{ 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color:black;
+    font-weight:bold;
+    font-family: sans-serif;
+    font-size:50px; 
+}
+nav{
+    justify-content: center;
+    width:80%;
+    max-width:450px;
+    margin:1px auto;
+    padding-left:70px;
+}
+ a{
+    font-size:25px;
+    padding:0 25px;
+}
+h2{ 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color:black;
+    font-weight:bold;
+    font-family: sans-serif;
+    font-size:40px; 
+    padding-bottom:10px;
+}
+button{
+    text-align: center;
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:16px;
+    border:solid 2px black;
+    background-color:azure;
+    width:200px;
+}
+#div1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:12px;
+}
+#div2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+.button:hover {
+  background-color:darkgoldenrod ;
+}
+.inputs{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+  border:solid 2px black;
+  width:180px;
+  font-size: 16px;
+  padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#submit{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+}
+.buttons{
+    text-align: centre;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+}
+#submit:hover{
+    background-color:darkgoldenrod ;
+    transition-duration: 0.4s;
+}
+#fetch-random:hover{
+    background-color:darkgoldenrod ;
+    transition-duration: 0.4s;
+}
+#fetch-all:hover{
+    background-color:darkgoldenrod ;
+    transition-duration: 0.4s;
+}
+#search-by-name:hover{
+    background-color:darkgoldenrod ;
+    transition-duration: 0.4s;
+}
+#submit:active{
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#search-by-name:active{
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#fetch-all:active{
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#fetch-random:active{
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
